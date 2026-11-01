@@ -1,12 +1,14 @@
 # Drone Range
 
+
 **Fly it. Shoot it. Fork it.**
 
-![License: MIT](https://img.shields.io/badge/license-MIT-green)
+[![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue)](LICENSE)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6)
 ![three.js](https://img.shields.io/badge/three.js-r186-black)
 ![React](https://img.shields.io/badge/React-19-61dafb)
-[![CI](https://github.com/YOUR-USER/drone-range/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR-USER/drone-range/actions/workflows/ci.yml)
+[![CI](https://github.com/ChayaNine/drone-range/actions/workflows/ci.yml/badge.svg)](https://github.com/ChayaNine/drone-range/actions/workflows/ci.yml)
+
 
 An open-source drone flight and combat simulator that runs in your browser. **Every drone is one small JSON file.** The simulator works out its mass, thrust, drag, battery life and balance from that file, and the flight model and the weapons use those numbers, so a heavier turret really does make a drone slower and shorten its flight.
 
