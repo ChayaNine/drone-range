@@ -1,0 +1,25 @@
+{
+  "format": "drone-range/recipe/1",
+  "name": "Sentinel VTOL",
+  "layout": "vtol_quadplane",
+  "length": 1.4,
+  "width": 2.4,
+  "systems": [
+    {
+      "id": "radar",
+      "mount": "top"
+    },
+    {
+      "id": "lidar",
+      "mount": "nose"
+    }
+  ],
+  "avionics": "mil",
+  "livery": {
+    "primary": "#6f7a64",
+    "secondary": "#454c3f",
+    "accent": "#e6e1cf",
+    "finish": "matte",
+    "pattern": "digital"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "format": "drone-surrogate-spec/3",
+  "generated": "2026-11-01T08:08:09.746Z",
+  "disclaimer": "Surrogate model. Not manufacturer CAD. Performance values are model estimates.",
+  "spec": {
+    "version": 3,
+    "name": "Factory Export Fixture",
+    "origin": "design",
+    "layout": "quad_x",
+    "envelope": {
+      "length": 0.7,
+      "width": 0.7,
+      "height": 0
+    },
+    "heightLocked": false,
+    "ratios": {
+      "rotor": 0.397,
+      "bodyL": 0.695,
+      "bodyW": 0.255,
+      "bodyH": 0.185,
+      "armR": 0.031,
+      "motorR": 0.034,
+      "motorH": 0.048,
+      "bladeChord": 0.048,
+      "gearH": 0.1,
+      "wingRoot": 0,
+      "wingTip": 0,
+      "wingSweep": 0,
+      "wingThick": 0,
+      "wingDihedral": 0,
+      "tailScale": 1
+    },
+    "body": {
+      "shape": "capsule",
+      "gear": "skids",
+      "tail": "none",
+      "thrust": "nose",
+      "gpsMast": false,
+      "antennas": 0,
+      "gimbal": true
+    },
+    "internals": {
+      "frameMaterial": "carbon",
+      "motorId": "m3110",
+      "propBlades": 3,
+      "propMaterial": "plastic",
+      "battery": {
+        "chemistry": "lipo",
+        "cells": 4,
+        "capacityMah": 18100,
+        "position": -0.025
+      },
+      "avionics": "pro"
+    },
+    "weapons": [
+      {
+        "id": "kinetic",
+        "mount": "belly"
+      }
+    ],
+    "systems": [
+      {
+        "id": "radar",
+        "mount": "top"
+      }
+    ],
+    "livery": {
+      "primary": "#C9D1D9",
+      "secondary": "#2B3540",
+      "accent": "#FF6B2C",
+      "finish": "satin",
+      "pattern": "split"
+    }
+  },
+  "summary": {
+    "className": "Quadcopter",
+    "massKg": 5.5653,
+    "priceUsd": 11495,
+    "maxSpeedMs": 22.12,
+    "enduranceMin": 16.2,
+    "thrustToWeight": 2.121,
+    "flightReady": true
+  }
+}

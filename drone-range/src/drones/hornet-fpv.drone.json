@@ -1,0 +1,18 @@
+{
+  "format": "drone-range/recipe/1",
+  "name": "Hornet FPV",
+  "layout": "quad_x",
+  "length": 0.24,
+  "propMaterial": "carbon",
+  "body": {
+    "shape": "box",
+    "gimbal": false
+  },
+  "livery": {
+    "primary": "#ff3d6e",
+    "secondary": "#151515",
+    "accent": "#ffe14d",
+    "finish": "gloss",
+    "pattern": "split"
+  }
+}

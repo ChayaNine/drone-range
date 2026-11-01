@@ -1,0 +1,35 @@
+{
+  "format": "drone-range/recipe/1",
+  "name": "Warden Hexa",
+  "layout": "hexa_x",
+  "length": 1.1,
+  "weapons": [
+    {
+      "id": "kinetic",
+      "mount": "belly"
+    },
+    {
+      "id": "missile",
+      "mount": "left"
+    }
+  ],
+  "systems": [
+    {
+      "id": "radar",
+      "mount": "top"
+    },
+    {
+      "id": "smoke",
+      "mount": "tail"
+    }
+  ],
+  "avionics": "mil",
+  "frameMaterial": "ti_carbon",
+  "livery": {
+    "primary": "#3b4248",
+    "secondary": "#23282d",
+    "accent": "#ffb347",
+    "finish": "matte",
+    "pattern": "digital"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "drone-range",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "An open-source drone flight and combat simulator for the browser. Real-ish physics, weapons, sensors, five environments, seven missions. Add a drone with one JSON file.",
+  "license": "MIT",
+  "keywords": [
+    "drone",
+    "simulator",
+    "three.js",
+    "react-three-fiber",
+    "game",
+    "flight-sim",
+    "webgl"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "build:single": "tsc -b && vite build --mode single",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "test": "vitest run",
+    "drone:new": "tsx scripts/new-drone.ts",
+    "drone:check": "tsx scripts/check-drones.ts",
+    "docs:tables": "tsx scripts/docs-tables.ts",
+    "example:headless": "tsx examples/headless.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@fontsource-variable/big-shoulders": "^5.3.0",
+    "@fontsource-variable/big-shoulders-stencil": "^5.3.0",
+    "@fontsource-variable/ibm-plex-sans": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.4",
+    "three": "^0.186.1",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.7",
+    "vite-plugin-singlefile": "^2.3.3",
+    "vitest": "^3.2.7"
+  }
+}

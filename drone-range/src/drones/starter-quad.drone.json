@@ -1,0 +1,7 @@
+{
+  "format": "drone-range/recipe/1",
+  "name": "Starter Quad",
+  "layout": "quad_x",
+  "length": 0.45,
+  "notes": "The smallest useful drone file. Copy it, change the numbers, drop it in src/drones/."
+}

@@ -1,0 +1,23 @@
+{
+  "format": "drone-range/recipe/1",
+  "name": "Longbow Surveyor",
+  "layout": "fixed_wing",
+  "length": 1.4,
+  "width": 2.6,
+  "systems": [
+    {
+      "id": "lidar",
+      "mount": "belly"
+    }
+  ],
+  "body": {
+    "tail": "v_tail"
+  },
+  "livery": {
+    "primary": "#eef1f3",
+    "secondary": "#3a6ea5",
+    "accent": "#ff6a2b",
+    "finish": "satin",
+    "pattern": "stripe"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format": "drone-range/recipe/1",
+  "name": "Kestrel Interceptor",
+  "layout": "quad_x",
+  "length": 0.72,
+  "weapons": [
+    {
+      "id": "net",
+      "mount": "nose"
+    }
+  ],
+  "systems": [
+    {
+      "id": "radar",
+      "mount": "top"
+    }
+  ],
+  "avionics": "pro",
+  "body": {
+    "shape": "wedge"
+  },
+  "livery": {
+    "primary": "#d9dee3",
+    "secondary": "#1f2a36",
+    "accent": "#ff6a2b",
+    "finish": "satin",
+    "pattern": "split"
+  }
+}

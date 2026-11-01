@@ -1,0 +1,33 @@
+{
+  "format": "drone-range/recipe/1",
+  "name": "Nightjar",
+  "layout": "quad_h",
+  "length": 0.6,
+  "width": 0.74,
+  "weapons": [
+    {
+      "id": "laser",
+      "mount": "belly"
+    }
+  ],
+  "systems": [
+    {
+      "id": "thermal",
+      "mount": "nose"
+    },
+    {
+      "id": "stealth",
+      "mount": "top"
+    }
+  ],
+  "body": {
+    "shape": "wedge"
+  },
+  "livery": {
+    "primary": "#20252b",
+    "secondary": "#15191d",
+    "accent": "#7c5cff",
+    "finish": "matte",
+    "pattern": "digital"
+  }
+}

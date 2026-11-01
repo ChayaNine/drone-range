@@ -1,0 +1,24 @@
+{
+  "format": "drone-range/recipe/1",
+  "name": "Gyro Scout",
+  "layout": "heli",
+  "length": 1.6,
+  "width": 1.3,
+  "systems": [
+    {
+      "id": "thermal",
+      "mount": "nose"
+    },
+    {
+      "id": "searchlight",
+      "mount": "belly"
+    }
+  ],
+  "livery": {
+    "primary": "#c8102e",
+    "secondary": "#f4f4f4",
+    "accent": "#1d1d1d",
+    "finish": "gloss",
+    "pattern": "split"
+  }
+}

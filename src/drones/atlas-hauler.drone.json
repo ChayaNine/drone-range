@@ -1,0 +1,27 @@
+{
+  "format": "drone-range/recipe/1",
+  "name": "Atlas Hauler",
+  "layout": "octo_x",
+  "length": 1.6,
+  "systems": [
+    {
+      "id": "winch",
+      "mount": "belly"
+    },
+    {
+      "id": "parachute",
+      "mount": "top"
+    }
+  ],
+  "avionics": "pro",
+  "body": {
+    "gear": "rails"
+  },
+  "livery": {
+    "primary": "#f2c230",
+    "secondary": "#2b2f33",
+    "accent": "#111111",
+    "finish": "gloss",
+    "pattern": "hazard"
+  }
+}
