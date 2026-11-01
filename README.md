@@ -23,8 +23,7 @@ Pick a drone, a place and a job. Thread rings between towers, shoot targets, net
 | **Runs on** | Any modern browser with WebGL2. Static files, so any host works |
 | **Headless** | The rules run in plain Node with no browser, at several hundred times real time |
 
-- **Live demo:** `<add your live URL>`
-- **Demo video (under 3 minutes):** `<add your YouTube URL>`
+- **Live demo:** `<dronesimulate.com>`
 - **Built with:** TypeScript, React 19, three.js, React Three Fiber, zustand, Vite, Vitest
 
 ![Drone Range: the start screen, with the drone list, five environments, seven missions and the selected drone's stats](docs/img/picker.png)
